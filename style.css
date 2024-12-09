@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier';
+}
+.overlay-text {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+}
