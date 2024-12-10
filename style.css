@@ -1,9 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    /*font-family: 'Courier';*/
+    font-family: 'Courier';
 }
-.overlay-text {
+
+body {
+    background-image: url('background1.jpg'); /* Ange din bakgrundsbild här */
+    background-size: cover; /* Gör så att bilden täcker hela sidan */
+    background-attachment: fixed; /* Gör bakgrunden fast när man scrollar */
+    animation: fadeIn 5s ease-in-out; /* Tillämpa animationen som fade:ar in bilden */
+}
+
+/* Skapar en fade-in animation för bakgrundsbilden */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Startar med osynlig bakgrund */
+    }
+    100% {
+        opacity: 1; /* Slutar med synlig bakgrund */
+    }
+}
+
+.content {
     position: absolute;
     top: 100px; 
     left: 100px;
