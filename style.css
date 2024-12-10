@@ -6,7 +6,7 @@
 
 body {
     background-image: url('background1.jpg'); /* Ange din bakgrundsbild här */
-    background-size: cover; /* Gör så att bilden täcker hela sidan */
+    /*background-size: cover; /* Gör så att bilden täcker hela sidan */
     background-attachment: fixed; /* Gör bakgrunden fast när man scrollar */
     animation: fadeIn 5s ease-in-out; /* Tillämpa animationen som fade:ar in bilden */
 }
